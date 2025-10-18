@@ -6,7 +6,7 @@ from PIL import Image
 
 # replace "your/song/path" with your song
 funk_file_path = 'your/song/path'
-
+ 
 y = True
 
 def abrir_imagen():
