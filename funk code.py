@@ -4,14 +4,15 @@ import pygame
 import os
 from PIL import Image
 
-
-funk_file_path = '/home/fernando/Música/LABUBU FUNK.mp3'
+# replace "your/song/path" with your song
+funk_file_path = 'your/song/path'
 
 y = True
 
 def abrir_imagen():
     try:
-        imagen = Image.open("/home/fernando/Imágenes/cara phonk.jpg")
+        # replace "your/image/path" with your image
+        imagen = Image.open("your/image/path")
         imagen.show()
     except FileNotFoundError:
         pass
